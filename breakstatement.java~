@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class breakstatement{
+  public static void main(System args[]){
+    Scanner.s=new Scanner(System.in);
+    for(int i=20;i++){
+      break;
+    }
+    else{
+      System.out.println(i);
+    }
+  }
+}
+      
