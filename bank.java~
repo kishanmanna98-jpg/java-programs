@@ -1,0 +1,58 @@
+import java.util.Scanner;
+class bank{
+  int account;
+  String name;
+  int balance;
+  int withdrawai;
+  int deposit;
+  
+  bank(int a,String b,int c,int d,int e){
+    account=a;
+    name=b;
+    balance=c;
+    withdrawai=d;
+    deposit=e;
+    public static void main(String [] args){
+      Scanner s=new Scanner(System.in);
+      s.dis();
+      s.deposit();
+      s.withdrawai();
+  }
+  void deposit(){
+     balance= balance+deposit;
+     System.out.println("deposit:"+ balance);
+  }
+  void withdrawai(){
+    balance=balance-withdrawai;
+    System.out.println("withdrawai:"+balance);
+  }
+    
+  void dis(){
+    System.out.println("ACCOUNT:"+account);
+    System.out.println("NAME:"+name);
+    System.out.println("BALANCE:"+balance);
+    
+  }
+  public class bank1{
+       System.out.println("acc");
+       int a=s.nextInt();
+       System.out.println("name");
+       String b=s.next();
+       System.out.println("balance");
+       int c=s.nextInt();
+       System.out.println(" withdrawai");
+       int d=s.nextInt();
+       System.out.println("deposit");
+       int e=s.nextInt();
+       bank s=new bank(a,b,c,d,e);
+        
+  }
+}
+}
+    
+    
+                         
+  
+    
+    
+  
