@@ -1,0 +1,9 @@
+class mythread extends thread{
+  void run(){
+    System.out.println("theard showing");
+  }
+  public static void main(String[] args){
+    mythread ny=new mythread();
+    ny.run();
+  }
+}
